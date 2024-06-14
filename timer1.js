@@ -19,7 +19,7 @@ const setAlarm = function(time) {
     process.stdout.write("\x07"); // Provided beep sound code from Compass
     console.log(`Beeped after ${time} seconds.`);
   }, time * 1000); // Convert given time in seconds to milliseconds
-}
+};
 
 // function to set alarms for provided times
 times.forEach(function(time) {
